@@ -1,0 +1,21 @@
+﻿<Window x:Class="WpfApp1.AddReview"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="AddReview" Height="300" Width="300">
+    <Grid x:Name="btnSubmit">
+        <Label Content="Custid" HorizontalAlignment="Left" Height="25" Margin="19,30,0,0" VerticalAlignment="Top" Width="65"/>
+        <Label Content="Review rating" HorizontalAlignment="Left" Height="43" Margin="9,75,0,0" VerticalAlignment="Top" Width="81" RenderTransformOrigin="0.494,0.488"/>
+        <Label Content="Review date" HorizontalAlignment="Left" Height="28" Margin="9,126,0,0" VerticalAlignment="Top" Width="80"/>
+        <Label Content="Review notes" HorizontalAlignment="Left" Height="28" Margin="3,172,0,0" VerticalAlignment="Top" Width="82"/>
+        <TextBox x:Name="txtcustid" HorizontalAlignment="Left" Height="20" Margin="128,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="84" RenderTransformOrigin="0.476,-0.3"/>
+        <TextBox x:Name="txtrating" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="130" RenderTransformOrigin="0.517,0.435" Margin="128,78,0,0"/>
+        <TextBox x:Name="txtdate" HorizontalAlignment="Left" Height="21" Margin="127,128,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="133"/>
+        <TextBox x:Name="txtnotes" HorizontalAlignment="Left" Height="23" Margin="128,175,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="133"/>
+        <Button x:Name="btnSubmit1" Content="Submit" HorizontalAlignment="Left" VerticalAlignment="Top" Width="134" Margin="69,217,0,0" Click="Button_Click"/>
+
+    </Grid>
+</Window>

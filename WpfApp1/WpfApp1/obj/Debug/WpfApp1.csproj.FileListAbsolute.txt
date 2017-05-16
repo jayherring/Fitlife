@@ -1,0 +1,10 @@
+C:\Users\NAstii\documents\visual studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csprojResolveAssemblyReference.cache
+C:\Users\NAstii\documents\visual studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\AddFitnessClass.g.cs
+C:\Users\NAstii\documents\visual studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\AddPersonalTrain.g.cs
+C:\Users\NAstii\documents\visual studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\AddPromo.g.cs
+C:\Users\NAstii\documents\visual studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\AddReview.g.cs
+C:\Users\NAstii\documents\visual studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\AppFitnessGear.g.cs
+C:\Users\NAstii\documents\visual studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\NAstii\documents\visual studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+C:\Users\NAstii\documents\visual studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\NAstii\documents\visual studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref

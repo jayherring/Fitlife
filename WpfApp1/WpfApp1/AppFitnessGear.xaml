@@ -1,0 +1,68 @@
+﻿<Window x:Class="WpfApp1.AppFitnessGear"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="AppFitnessGear" Height="300" Width="300">
+    <Grid>
+        <Grid x:Name="PT_ID" RenderTransformOrigin="0.479,0.468" Margin="-2,-4,-10,1">
+            <Label Content="FG ID" HorizontalAlignment="Left" Height="25" Margin="17,10,0,0" VerticalAlignment="Top" Width="65" RenderTransformOrigin="0.462,0.52"/>
+            <Label Content="Order Id&#xD;&#xA;" HorizontalAlignment="Left" Height="43" Margin="9,33,0,0" VerticalAlignment="Top" Width="80" RenderTransformOrigin="0.494,0.488"/>
+            <Label Content="ltem" HorizontalAlignment="Left" Height="28" Margin="12,62,0,0" VerticalAlignment="Top" Width="80"/>
+            <Label Content="Size" HorizontalAlignment="Left" Height="28" Margin="13,84,0,0" VerticalAlignment="Top" Width="117"/>
+            <TextBox x:Name="txtfgid" HorizontalAlignment="Left" Height="20" Margin="131,12,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="84" RenderTransformOrigin="0.5,0.55"/>
+            <TextBox x:Name="txtorder" HorizontalAlignment="Left" Height="24" TextWrapping="Wrap" VerticalAlignment="Top" Width="130" RenderTransformOrigin="0.517,0.435" Margin="125,35,0,0"/>
+            <TextBox x:Name="txitem" HorizontalAlignment="Left" Height="21" Margin="126,64,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="132"/>
+            <TextBox x:Name="txtsize" HorizontalAlignment="Left" Height="20" Margin="126,90,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="132"/>
+            <Button x:Name="btnSubmit" Content="Submit" HorizontalAlignment="Left" VerticalAlignment="Top" Width="134" Margin="100,245,0,0" Click="Button_Click"/>
+            <Label Content="Color" HorizontalAlignment="Left" Height="28" Margin="12,106,0,0" VerticalAlignment="Top" Width="100"/>
+            <TextBox x:Name="txtcolor" HorizontalAlignment="Left" Height="18" Margin="124,116,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="133" RenderTransformOrigin="0.5,0.5">
+                <TextBox.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-0.156"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </TextBox.RenderTransform>
+            </TextBox>
+            <Label Content="Price" HorizontalAlignment="Left" Height="28" Margin="10,134,0,0" VerticalAlignment="Top" Width="100"/>
+            <TextBox x:Name="txtprice" HorizontalAlignment="Left" Height="24" Margin="126,138,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="133" RenderTransformOrigin="0.5,0.5">
+                <TextBox.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-0.156"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </TextBox.RenderTransform>
+            </TextBox>
+            <Label Content="Purchase Price" HorizontalAlignment="Left" Height="28" Margin="6,168,0,0" VerticalAlignment="Top" Width="89"/>
+            <TextBox x:Name="txtpurchase" HorizontalAlignment="Left" Height="23" Margin="124,172,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="134" RenderTransformOrigin="0.5,0.5">
+                <TextBox.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-0.156"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </TextBox.RenderTransform>
+            </TextBox>
+            <TextBox x:Name="txtstatus" HorizontalAlignment="Left" Height="25" Margin="126,199,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="133" RenderTransformOrigin="0.5,0.5">
+                <TextBox.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-0.156"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </TextBox.RenderTransform>
+            </TextBox>
+            <Label Content="Status" HorizontalAlignment="Left" Height="28" Margin="12,196,0,0" VerticalAlignment="Top" Width="80"/>
+
+        </Grid>
+
+    </Grid>
+</Window>
