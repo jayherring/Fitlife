@@ -1,0 +1,21 @@
+﻿<Window x:Class="Fitlife.AddReview"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Fitlife"
+        mc:Ignorable="d"
+        Title="AddReview" Height="300" Width="300">
+    <Grid>
+        <Label Content="CUST ID" HorizontalAlignment="Left" Height="29" Margin="13,26,0,0" VerticalAlignment="Top" Width="70"/>
+        <Label Content="Raiting" HorizontalAlignment="Left" Height="34" Margin="11,75,0,0" VerticalAlignment="Top" Width="75"/>
+        <Label Content="Review Date" HorizontalAlignment="Left" Height="32" Margin="13,127,0,0" VerticalAlignment="Top" Width="79"/>
+        <Label Content="Notes" HorizontalAlignment="Left" Height="32" Margin="16,170,0,0" VerticalAlignment="Top" Width="68"/>
+        <TextBox x:Name="txtcustidr" HorizontalAlignment="Left" Height="24" Margin="105,32,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="169"/>
+        <TextBox x:Name="txtraiting" HorizontalAlignment="Left" Height="26" Margin="103,75,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="174"/>
+        <TextBox x:Name="txtdatar" HorizontalAlignment="Left" Height="22" Margin="106,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="170"/>
+        <TextBox x:Name="txtnotesr" HorizontalAlignment="Left" Height="22" Margin="102,172,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="173"/>
+        <Button x:Name="BtnSubmitR" Content="Submit" HorizontalAlignment="Left" Height="32" Margin="72,217,0,0" VerticalAlignment="Top" Width="133" Click="BtnSubmitR_Click"/>
+
+    </Grid>
+</Window>

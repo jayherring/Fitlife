@@ -1,0 +1,25 @@
+﻿<Window x:Class="Fitlife.AddPersonalTraining"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Fitlife"
+        mc:Ignorable="d"
+        Title="AddPersonalTraining" Height="300" Width="300">
+    <Grid>
+        <Label Content="PT ID" HorizontalAlignment="Left" Height="30" Margin="9,20,0,0" VerticalAlignment="Top" Width="57"/>
+        <Label Content="EMP ID" HorizontalAlignment="Left" Height="29" Margin="8,62,0,0" VerticalAlignment="Top" Width="55"/>
+        <Label Content="CUST ID" HorizontalAlignment="Left" Height="31" Margin="9,102,0,0" VerticalAlignment="Top" Width="60"/>
+        <Label Content="Order ID" HorizontalAlignment="Left" Height="29" Margin="10,140,0,0" VerticalAlignment="Top" Width="55"/>
+        <Label Content="Numofsessions" HorizontalAlignment="Left" Height="25" Margin="6,177,0,0" VerticalAlignment="Top" Width="102"/>
+        <Label Content="Price" HorizontalAlignment="Left" Height="24" Margin="6,213,0,0" VerticalAlignment="Top" Width="105"/>
+        <Button x:Name="BtnSubmitPT" Content="Submit" HorizontalAlignment="Left" Height="21" Margin="65,241,0,0" VerticalAlignment="Top" Width="136" Click="BtnSubmitPT_Click"/>
+        <TextBox x:Name="txtptid" HorizontalAlignment="Left" Height="27" Margin="111,27,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="85"/>
+        <TextBox x:Name="txtempidpt" HorizontalAlignment="Left" Height="24" Margin="111,70,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="82"/>
+        <TextBox x:Name="txtcustidpt" HorizontalAlignment="Left" Height="24" Margin="109,109,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="92"/>
+        <TextBox x:Name="txtorderidpt" HorizontalAlignment="Left" Height="22" Margin="107,147,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="91"/>
+        <TextBox x:Name="txtnum" HorizontalAlignment="Left" Height="22" Margin="109,179,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="153"/>
+        <TextBox x:Name="txtpricept" HorizontalAlignment="Left" Height="23" Margin="109,209,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="148"/>
+
+    </Grid>
+</Window>

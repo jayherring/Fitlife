@@ -1,0 +1,14 @@
+﻿<Window x:Class="Fitlife.ListPersonalTraining"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Fitlife"
+        mc:Ignorable="d"
+        Title="ListPersonalTraining" Height="326" Width="457">
+    <Grid>
+        <DataGrid x:Name="PersonalTrainingDataGrid" HorizontalAlignment="Left" Height="211" Margin="19,8,0,0" VerticalAlignment="Top" Width="415"/>
+        <Button x:Name="BtnListPT" Content="List" HorizontalAlignment="Left" Margin="153,244,0,0" VerticalAlignment="Top" Width="150" Click="BtnListPT_Click"/>
+
+    </Grid>
+</Window>
